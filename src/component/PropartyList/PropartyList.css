@@ -1,0 +1,22 @@
+.propatryList{
+      display:flex;
+      justify-content:space-between;
+      gap: 10px;
+      width:100%;
+      max-width: 1024px;
+}
+.propartyItem{
+      flex:1;
+
+      overflow: hidden;
+      cursor: pointer;
+}
+.plistImage{
+      border-radius: 10px;
+      object-fit: cover;
+      width:100%;
+      height:100px;
+}
+.propartTitle{
+      font-size: 10px;
+}

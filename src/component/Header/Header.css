@@ -3,7 +3,9 @@
       color:white;
       display: flex;
       justify-content: center;
+      align-items: center;
       position: relative;
+      /* position:sticky; */
 }
 .headerContainer{
       width: 100%;
@@ -62,6 +64,7 @@
 .SrcBtn{
       padding:10px;
       border: none;
+      cursor: pointer;
       
 }
 .headerSearchInput{
@@ -85,10 +88,12 @@
 
 }
 .dateRange{
+      z-index: 1;
       position:absolute;
       top:50px
 }
 .option{
+      z-index: 1;
       position:absolute;
       top:50px;
       background-color:white;

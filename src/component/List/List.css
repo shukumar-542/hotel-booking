@@ -1,0 +1,79 @@
+.listContainer{
+      display:flex;
+      justify-content:center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+.listWraper{
+      width:100%;
+      display: flex;
+      max-width: 1024px;
+      gap: 20px;
+}
+.listSearch{
+      flex:1;
+      background-color:#febb02;
+      padding: 10px;
+      position: sticky;
+      border-radius: 5px;
+      top: 10px;
+      height:max-content;
+}
+.liItem{
+      color:#555;
+      font-size: 20px;
+      margin-bottom: 10px;
+}
+.listresult{
+      flex:3;
+}
+.listitems{
+      display: flex;
+      flex-direction: column;
+      gap:5px;
+      margin-bottom: 10px;
+
+}
+.listitems>input{
+      border:none;
+      height: 30px;
+      /* padding: 5px; */
+      border-radius: 5px;
+}
+.listitems>span{
+      background-color: white;
+      height:30px;
+      border-radius: 5px;
+      align-items: center;
+      display: flex;
+      cursor: pointer;
+      margin-bottom: 10px;
+      
+}
+.dateRanges{
+      z-index: 1;
+      position:absolute;
+      top:185px
+}
+.optionitems{
+      display: flex;
+      justify-content:space-between;
+      margin-bottom: 10px;
+      color:#555;
+      margin-top: 10px;
+      font-size: 15px;
+}
+.optionitems>input{
+      width: 60px;
+}
+.listSearch>button{
+      width: 100%;
+      border: none;
+      background-color:#0071c2;
+      padding:10px;
+      color:white;
+      font-weight:500;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 10px;
+}

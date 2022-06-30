@@ -1,0 +1,70 @@
+.sitem{
+      border: 1px solid lightgray;
+      border-radius:5px;
+      padding:20px;
+      display: flex;
+      justify-content:space-between;
+      gap: 20px;
+      margin-bottom:20px;
+}
+.sdes{
+      flex:3;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+}
+.sdetails{
+      flex:1;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+}
+.desimg{
+      object-fit: cover;
+      width: 200px;
+      height: 250px;
+}
+.freeapert{
+      background-color: green;
+      width: max-content;  
+      color:white;
+      padding: 3px;
+      border-radius: 5px;
+      font-size: 12px;    
+}
+.sCancelation{
+      font-weight: bold;
+      color:green;
+}
+.sdistance{
+      font-size: 12px;
+}
+.siRating{
+      display: flex;
+      justify-content:space-between;
+}
+.siText{
+      font-weight: bold;
+}
+.sibtn{
+      background-color:#0071c2;
+      border: none;
+      color:white;
+      padding: 5px;
+      border-radius: 5px;
+}
+.sitaxt{
+      display: flex;
+      flex-direction: column;
+      gap:10px
+}
+.taxtvalue{
+      font-weight: bolder;
+}
+.sitaxt>button{
+      background-color:#003580;
+      border: none;
+      padding: 5px;
+      color:white;
+      border-radius: 5px;
+}
